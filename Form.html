@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+  <head>
+    <meta charset="UFT-8" />
+    <title>فرم درخواست کار</title>
+  </head>
+  <body>
+    <h1>فرم درخواست همکاری</h1>
+
+    <img src="Untitled 8.png" alt="عکس استخدامی" width="200" height="200" />
+
+    <p>متقاضیان پس از پر کردن فرم بر روی ثبت کلیک کرده و منتظر پاسخ بمانند.</p>
+    <p>با تشکر از شما</p>
+
+    <form action="/action_page.php">
+      <label for="fname"> نام :</label> <br />
+      <input type="text" id="fname" name="fname" /><br />
+      <br />
+      <label for="lname"> نام خانوادگی :</label> <br />
+      <input type="text" id="lname" name="lname" /><br />
+      <br />
+      <label for="phone"> تلفن :</label> <br />
+      <input type="text" id="phone" name="phone" /><br />
+      <br />
+      <label for="Email"> ایمیل: </label> <br />
+      <input type="text" id="Email" name="Email" /><br />
+      <br />
+      <label for="years"> میزان سابقه کار :</label> <br />
+      <input type="text" id="years" name="years" /><br />
+      <br />
+      <label for="command">
+        سابقه کاری خود را کامل در اینجا توضیح دهید :
+      </label>
+      <br />
+      <input
+        type="text"
+        style="height: 100px; width: 500px"
+        id="command"
+        name="command"
+        width="10"
+      /><br />
+      <br />
+
+      <label for="cars">حوزه کاری خود را مشخص کنید: </label>
+      <select id="job" name="job">
+        <option value="counter">مالی</option>
+        <option value="marketing">بازاریابی</option>
+        <option value="selling">فروش</option>
+      </select>
+
+      <p>سطح تحصیلات خود را مشخص کنید:</p>
+
+      <form>
+         
+        <input type="radio" id="junior" name="fav_language" value="junior" />
+          <label for="junior">کارشناسی</label><br />
+         
+        <input type="radio" id="masters" name="fav_language" value="masters" />
+          <label for="masters">کارشناسی ارشد</label><br />
+         
+        <input type="radio" id="phd" name="fav_language" value="phd" />
+          <label for="phd">دکتری</label>
+      </form>
+      <input type="submit" value="ثبت" />
+    </form>
+  </body>
+</html>
